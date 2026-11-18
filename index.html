@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#080b0a">
+  <meta name="description" content="CR Robotics — Human connection, engineered intelligence.">
+  <title>CR ROBOTICS — Future, in motion</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800&family=Geist+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  <div class="noise" aria-hidden="true"></div>
+  <div class="cursor-dot" aria-hidden="true"></div>
+  <div class="cursor-ring" aria-hidden="true"></div>
+  <div class="mouse-spot" aria-hidden="true"></div>
+
+  <div class="boot-screen" id="bootScreen" aria-label="CR Robotics system startup">
+    <div class="boot-top mono"><span>CR // SYSTEMS</span><span>BOOT SEQUENCE 01.04</span></div>
+    <div class="boot-center">
+      <div class="boot-mark"><span>CR</span><i></i></div>
+      <p class="eyebrow">AUTONOMOUS INTELLIGENCE DIVISION</p>
+      <h1>CR<span>ROBOTICS</span></h1>
+      <p class="boot-copy">INITIALIZING HUMAN–MACHINE INTERFACE</p>
+      <div class="boot-progress"><span id="bootProgress"></span></div>
+      <div class="boot-meta mono"><span id="bootStatus">LOADING CORE SYSTEMS</span><span id="bootPercent">00%</span></div>
+      <button class="start-button" id="startButton" disabled>START EXPERIENCE <b>↗</b></button>
+      <button class="skip-button" id="skipIntro">SKIP INTRO</button>
+    </div>
+    <div class="boot-bottom mono"><span>SECURE CONNECTION // ESTABLISHED</span><span>VIETNAM · EARTH</span></div>
+    <div class="boot-scan" aria-hidden="true"></div>
+  </div>
+
+  <header class="site-header" id="siteHeader">
+    <a class="brand" href="#home" aria-label="CR Robotics home"><span class="brand-symbol">CR</span><span>ROBOTICS</span></a>
+    <nav class="top-nav" aria-label="Main navigation">
+      <a href="#home">HOME</a><a href="#about">ABOUT</a><a href="#robots">ROBOTS</a><a href="#technology">TECHNOLOGY</a>
+    </nav>
+    <div class="header-right">
+      <span class="system-live"><i></i> SYSTEM ONLINE</span>
+      <button class="menu-toggle" id="menuToggle" aria-label="Open menu" aria-expanded="false"><span></span><span></span></button>
+    </div>
+  </header>
+
+  <div class="mobile-panel" id="mobilePanel" aria-hidden="true">
+    <a href="#home">01 / HOME</a><a href="#about">02 / ABOUT</a><a href="#robots">03 / ROBOTS</a><a href="#technology">04 / TECHNOLOGY</a><a href="#contact">05 / CONTACT</a>
+  </div>
+
+  <aside class="side-nav" aria-label="Section navigation">
+    <a href="#home" class="side-link active"><span>01</span> OVERVIEW</a>
+    <a href="#about" class="side-link"><span>02</span> ABOUT</a>
+    <a href="#robots" class="side-link"><span>03</span> ROBOTS</a>
+    <a href="#evolution" class="side-link"><span>04</span> EVOLUTION</a>
+    <a href="#technology" class="side-link"><span>05</span> TECHNOLOGY</a>
+    <a href="#contact" class="side-link"><span>06</span> CONTACT</a>
+  </aside>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="hero-grid" aria-hidden="true"></div>
+      <div class="hero-copy reveal">
+        <p class="eyebrow"><span class="red-line"></span> ENGINEERING THE NEXT FORM OF CONNECTION</p>
+        <h1>FUTURE,<br><em>IN MOTION.</em></h1>
+        <p class="hero-desc">Intelligence built to understand, assist and move alongside humanity.</p>
+        <a class="outline-cta" href="#robots">EXPLORE OUR ROBOTS <span>↗</span></a>
+      </div>
+      <div class="hero-visual" aria-label="Abstract robot concept artwork">
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <div class="hero-crosshair">CR / 001</div>
+        <div class="robot-figure hero-robot">
+          <div class="robot-halo"></div><div class="robot-head"><i></i><b></b></div>
+          <div class="robot-neck"></div><div class="robot-body"><span class="chest-mark">CR</span><i></i></div>
+          <div class="robot-arm left"></div><div class="robot-arm right"></div>
+        </div>
+        <div class="visual-caption mono"><span>FIG. 001 — SYNTHETIC FORM</span><span>CONCEPT VISUAL</span></div>
+      </div>
+      <div class="hero-index mono"><span>01</span><i></i><span>06</span></div>
+      <div class="hero-scroll mono">SCROLL TO DISCOVER <span>↓</span></div>
+    </section>
+
+    <section class="about section" id="about">
+      <div class="section-kicker reveal"><span>02 / WHO WE ARE</span><i></i><span>CR ROBOTICS</span></div>
+      <div class="about-layout">
+        <h2 class="reveal">TECHNOLOGY<br>WITH A <em>HUMAN</em><br>POINT OF VIEW.</h2>
+        <div class="about-text reveal">
+          <p>We imagine a future where intelligent machines are not distant tools, but thoughtful companions — designed around people, purpose and possibility.</p>
+          <p class="muted">CR Robotics is a concept brand exploring the relationship between robotics, artificial intelligence and everyday life.</p>
+          <div class="stat-row"><div><strong>05</strong><span>ROBOT MODELS</span></div><div><strong>01</strong><span>SHARED VISION</span></div><div><strong>∞</strong><span>POSSIBILITIES</span></div></div>
+        </div>
+      </div>
+      <div class="about-marquee" aria-hidden="true"><div>DESIGNED AROUND PEOPLE <b>✳</b> BUILT FOR TOMORROW <b>✳</b> DESIGNED AROUND PEOPLE <b>✳</b> BUILT FOR TOMORROW <b>✳</b></div></div>
+    </section>
+
+    <section class="robots section" id="robots">
+      <div class="section-kicker reveal"><span>03 / ROBOT ARCHIVE</span><i></i><span>SELECT A UNIT</span></div>
+      <div class="robots-heading reveal"><h2>MEET THE<br><em>UNITS.</em></h2><p>Five distinct identities.<br>One technological vision.</p></div>
+      <div class="robot-interface">
+        <div class="robot-selector" role="tablist" aria-label="Choose robot model">
+          <button class="model-tab active" data-model="CR28" role="tab" aria-selected="true"><span>01</span> CR28 <small>CARE</small></button>
+          <button class="model-tab" data-model="CR17" role="tab" aria-selected="false"><span>02</span> CR17 <small>COMPANION</small></button>
+          <button class="model-tab" data-model="CR11" role="tab" aria-selected="false"><span>03</span> CR11 <small>COMPANION</small></button>
+          <button class="model-tab" data-model="CR7" role="tab" aria-selected="false"><span>04</span> CR7 <small>COMPANION</small></button>
+          <button class="model-tab" data-model="CR9" role="tab" aria-selected="false"><span>05</span> CR9 <small>SPECIALIST</small></button>
+        </div>
+        <div class="robot-stage">
+          <div class="stage-top mono"><span id="unitClass">CARE / FAMILY ASSISTANCE</span><span id="unitStatus">UNIT STATUS: CONCEPT</span></div>
+          <div class="stage-grid"></div>
+          <div class="robot-figure stage-robot" id="stageRobot">
+            <div class="robot-halo"></div><div class="robot-head"><i></i><b></b></div><div class="robot-neck"></div>
+            <div class="robot-body"><span class="chest-mark">CR</span><i></i></div><div class="robot-arm left"></div><div class="robot-arm right"></div>
+          </div>
+          <div class="stage-number" id="stageNumber">28</div>
+          <div class="stage-label mono">CR / SERIES <span id="stageModel">CR28</span></div>
+          <div class="stage-bottom mono"><span>VISUAL PLACEHOLDER</span><span>MODEL <b id="stageCount">01 / 05</b></span></div>
+        </div>
+        <div class="robot-info" aria-live="polite">
+          <p class="eyebrow" id="robotEyebrow">01 — CARE SERIES</p>
+          <h3 id="robotTitle">CR28</h3>
+          <p class="robot-role" id="robotRole">A companion concept for children.</p>
+          <p class="robot-description" id="robotDescription">Designed around play, companionship and age-appropriate assistance. CR28 represents a gentle introduction to intelligent robotics.</p>
+          <div class="robot-tags" id="robotTags"><span>COMPANIONSHIP</span><span>ASSISTANCE</span><span>INTERACTION</span></div>
+          <button class="text-link" id="robotNext">NEXT UNIT <span>→</span></button>
+        </div>
+      </div>
+      <p class="disclaimer">Robot descriptions are conceptual placeholders. Capabilities and specifications have not been finalized.</p>
+    </section>
+
+    <section class="evolution section" id="evolution">
+      <div class="section-kicker reveal"><span>04 / DEVELOPMENT PATH</span><i></i><span>COMPANION LINE</span></div>
+      <div class="evolution-heading reveal"><h2>ONE LINE.<br><em>EVOLVING.</em></h2><p>CR17, CR11 and CR7 belong to the same companion-robot line. Their model codes do not indicate generation numbers.</p></div>
+      <div class="evolution-track">
+        <article class="evo-card reveal"><span class="evo-index mono">MODEL / 01</span><h3>CR17</h3><p>Companion robot</p><span class="evo-line"></span><small>FOUNDATION MODEL</small></article>
+        <article class="evo-card reveal"><span class="evo-index mono">MODEL / 02</span><h3>CR11</h3><p>Improved companion robot</p><span class="evo-line"></span><small>REFINEMENT CONCEPT</small></article>
+        <article class="evo-card reveal"><span class="evo-index mono">MODEL / 03</span><h3>CR7</h3><p>Further-developed companion robot</p><span class="evo-line"></span><small>ADVANCED CONCEPT</small></article>
+      </div>
+      <p class="disclaimer">“Foundation / Refinement / Advanced” are display labels for this prototype website, not official generation names.</p>
+    </section>
+
+    <section class="technology section" id="technology">
+      <div class="section-kicker reveal"><span>05 / TECHNOLOGY</span><i></i><span>CORE PRINCIPLES</span></div>
+      <div class="tech-layout">
+        <h2 class="reveal">INTELLIGENCE<br>IN EVERY<br><em>DETAIL.</em></h2>
+        <div class="tech-list">
+          <article class="tech-item reveal"><span>01</span><div><h3>Human-centered design</h3><p>Technology shaped around understandable, useful interactions.</p></div><b>↗</b></article>
+          <article class="tech-item reveal"><span>02</span><div><h3>Adaptive interaction</h3><p>A concept direction for responsive and context-aware experiences.</p></div><b>↗</b></article>
+          <article class="tech-item reveal"><span>03</span><div><h3>Modular thinking</h3><p>A flexible design language for a family of different robot identities.</p></div><b>↗</b></article>
+        </div>
+      </div>
+      <div class="tech-bottom mono"><span>RESEARCH / DESIGN / ENGINEERING</span><span>CR ROBOTICS — 2026</span></div>
+    </section>
+
+    <section class="contact section" id="contact">
+      <div class="contact-orbit"></div>
+      <p class="eyebrow reveal">THE NEXT CHAPTER STARTS HERE</p>
+      <h2 class="reveal">BUILD WHAT<br><em>COMES NEXT.</em></h2>
+      <a class="contact-link reveal" href="mailto:hello@crrobotics.example">CONTACT CR ROBOTICS <span>↗</span></a>
+      <div class="contact-foot mono"><span>CR ROBOTICS</span><span>HUMAN × MACHINE</span><span>END OF TRANSMISSION</span></div>
+    </section>
+  </main>
+
+  <script src="js/intro.js"></script>
+  <script src="js/cursor.js"></script>
+  <script src="js/scroll.js"></script>
+  <script src="js/robots.js"></script>
+  <script src="js/navigation.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
